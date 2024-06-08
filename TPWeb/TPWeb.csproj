@@ -67,11 +67,95 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ArchivosJS.js" />
+    <Content Include="BugattiBolide.aspx" />
+    <Content Include="BugattiChiron.aspx" />
+    <Content Include="BugattiDivo.aspx" />
+    <Content Include="carrito.js" />
+    <Content Include="CarritoDeCompras.aspx" />
+    <Content Include="Content\bootstrap-grid.css" />
+    <Content Include="Content\bootstrap-grid.min.css" />
+    <Content Include="Content\bootstrap-grid.rtl.css" />
+    <Content Include="Content\bootstrap-grid.rtl.min.css" />
+    <Content Include="Content\bootstrap-reboot.css" />
+    <Content Include="Content\bootstrap-reboot.min.css" />
+    <Content Include="Content\bootstrap-reboot.rtl.css" />
+    <Content Include="Content\bootstrap-reboot.rtl.min.css" />
+    <Content Include="Content\bootstrap-utilities.css" />
+    <Content Include="Content\bootstrap-utilities.min.css" />
+    <Content Include="Content\bootstrap-utilities.rtl.css" />
+    <Content Include="Content\bootstrap-utilities.rtl.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\bootstrap.rtl.css" />
+    <Content Include="Content\bootstrap.rtl.min.css" />
+    <Content Include="Daytona.aspx" />
+    <Content Include="DB12.aspx" />
+    <Content Include="DBS770.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="MiStyles.css" />
+    <Content Include="MonzaSP1.aspx" />
+    <Content Include="Scripts\bootstrap.bundle.js" />
+    <Content Include="Scripts\bootstrap.bundle.min.js" />
+    <Content Include="Scripts\bootstrap.esm.js" />
+    <Content Include="Scripts\bootstrap.esm.min.js" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="SF90.aspx" />
+    <Content Include="Valquiria.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BugattiBolide.aspx.cs">
+      <DependentUpon>BugattiBolide.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BugattiBolide.aspx.designer.cs">
+      <DependentUpon>BugattiBolide.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BugattiChiron.aspx.cs">
+      <DependentUpon>BugattiChiron.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BugattiChiron.aspx.designer.cs">
+      <DependentUpon>BugattiChiron.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BugattiDivo.aspx.cs">
+      <DependentUpon>BugattiDivo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BugattiDivo.aspx.designer.cs">
+      <DependentUpon>BugattiDivo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CarritoDeCompras.aspx.cs">
+      <DependentUpon>CarritoDeCompras.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CarritoDeCompras.aspx.designer.cs">
+      <DependentUpon>CarritoDeCompras.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Daytona.aspx.cs">
+      <DependentUpon>Daytona.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Daytona.aspx.designer.cs">
+      <DependentUpon>Daytona.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DB12.aspx.cs">
+      <DependentUpon>DB12.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DB12.aspx.designer.cs">
+      <DependentUpon>DB12.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DBS770.aspx.cs">
+      <DependentUpon>DBS770.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DBS770.aspx.designer.cs">
+      <DependentUpon>DBS770.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -89,11 +173,54 @@
     <Compile Include="MasterPage1.Master.designer.cs">
       <DependentUpon>MasterPage1.Master</DependentUpon>
     </Compile>
+    <Compile Include="MonzaSP1.aspx.cs">
+      <DependentUpon>MonzaSP1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MonzaSP1.aspx.designer.cs">
+      <DependentUpon>MonzaSP1.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SF90.aspx.cs">
+      <DependentUpon>SF90.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SF90.aspx.designer.cs">
+      <DependentUpon>SF90.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Valquiria.aspx.cs">
+      <DependentUpon>Valquiria.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Valquiria.aspx.designer.cs">
+      <DependentUpon>Valquiria.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="MasterPage1.Master" />
+    <Content Include="Content\bootstrap.rtl.min.css.map" />
+    <Content Include="Content\bootstrap.rtl.css.map" />
+    <Content Include="Content\bootstrap.min.css.map" />
+    <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Content\bootstrap-utilities.rtl.min.css.map" />
+    <Content Include="Content\bootstrap-utilities.rtl.css.map" />
+    <Content Include="Content\bootstrap-utilities.min.css.map" />
+    <Content Include="Content\bootstrap-utilities.css.map" />
+    <Content Include="Content\bootstrap-reboot.rtl.min.css.map" />
+    <Content Include="Content\bootstrap-reboot.rtl.css.map" />
+    <Content Include="Content\bootstrap-reboot.min.css.map" />
+    <Content Include="Content\bootstrap-reboot.css.map" />
+    <Content Include="Content\bootstrap-grid.rtl.min.css.map" />
+    <Content Include="Content\bootstrap-grid.rtl.css.map" />
+    <Content Include="Content\bootstrap-grid.min.css.map" />
+    <Content Include="Content\bootstrap-grid.css.map" />
     <None Include="packages.config" />
+    <Content Include="Scripts\bootstrap.min.js.map" />
+    <Content Include="Scripts\bootstrap.js.map" />
+    <Content Include="Scripts\bootstrap.esm.min.js.map" />
+    <Content Include="Scripts\bootstrap.esm.js.map" />
+    <Content Include="Scripts\bootstrap.bundle.min.js.map" />
+    <Content Include="Scripts\bootstrap.bundle.js.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -104,6 +231,9 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
